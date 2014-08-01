@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Handlemarks</title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+</head>
+<body>
+  <div id="editor">
+Trello uses Markdown for formatting. Here are the basics. See the complete syntax.
+
+First Level Header
+
+# Making Scrambled Eggs: A Primer
+
+Second Level Header
+
+## 1.1: Preparation
+
+Paragraphs
+
+Add two new lines to start a new paragraph. Crack two eggs into the bowl and whisk.
+Bold
+
+**Carefully** crack the eggs.
+Emphasis
+
+{{video}}
+
+Whisk the eggs *vigorously*.
+Lists
+
+Ingredients:
+
+- Eggs
+- Oil
+- *Optional:* milk
+- Links
+
+---
+
+To download a PDF version of the recipe, [click here](https://example.com/scrambled-eggs.pdf).</div>
+
+  <div id="preview"></div>
+
+  <!-- scumbag module systems -->
+  <script src="/vendor/ace-builds/src/ace.js"></script>
+  <script src="/vendor/ace-builds/src/theme-solarized_light.js"></script>
+  <script src="/vendor/ace-builds/src/mode-markdown.js"></script>
+  <script type="text/javascript">
+    var MarkdownMode = require("ace/mode/markdown").Mode;
+  </script>
+
+  <script src="/vendor/loader.js/loader.js"></script>
+  <script src="/vendor/handlebars/handlebars.js"></script>
+  <script src="/vendor/marked/lib/marked.js"></script>
+  <script src="/lib/handlemarks.js"></script>
+  <script src="/example.js"></script>
+</body>
+</html>
